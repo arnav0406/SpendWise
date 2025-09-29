@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spendwise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="form-page">
+
+    <header class="page-header space-between">
+        <a href="index.html" class="logo">SpendWise</a>
+        <nav>
+            <a href="signup.html" class="btn-header">Sign up</a>
+        </nav>
+    </header>
+
+    <main class="form-container">
+        <h1>Welcome Back</h1>
+        <p class="form-subheading">Sign in to your Spendwise account</p>
+        <form action="home.html" method="POST" class="main-form">
+            <label for="email">Username or Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your username or email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            
+            <a href="#" class="forgot-password">Forgot Password?</a>
+            
+            <button type="submit">Login</button>
+        </form>
+        <p class="form-footer-text">
+            Don't have an account? <a href="signup.html">Sign Up</a>
+        </p>
+    </main>
+
+</body>
+</html>
+

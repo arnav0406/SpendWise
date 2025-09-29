@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Transaction - Spendwise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="app-layout">
+
+    <main class="app-content centered-form">
+        <div class="page-header-with-back">
+            <a href="transactions.html" class="back-button">&larr;</a>
+            <h1>New transaction</h1>
+        </div>
+
+        <form action="#" method="POST" class="main-form">
+            <label for="amount">Amount</label>
+            <input type="text" id="amount" name="amount" placeholder="₹0.00" required>
+            
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="category">Category</label>
+            <select id="category" name="category" required>
+                <option value="">Select category</option>
+                <option value="groceries">Groceries</option>
+                <option value="dining">Dining</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="transportation">Transportation</option>
+                <option value="utilities">Utilities</option>
+                <option value="salary">Salary</option>
+            </select>
+            
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="4"></textarea>
+            
+            <button type="submit">Save</button>
+        </form>
+    </main>
+
+</body>
+</html>
+
