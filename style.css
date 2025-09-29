@@ -137,7 +137,7 @@ body:has(.hero) {
     margin-bottom: 2.5rem;
 }
 .form-container .form-footer-text {
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: var(--text-secondary);
 }
 .form-footer-text a {
@@ -290,6 +290,20 @@ body.app-layout {
 .cta-container {
     text-align: center;
 }
+.new-btn{
+    background-color: var(--button-secondary-bg);
+    color: var(--text-primary);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease; 
+     
+}
+.new-btn:hover{
+    background-color: var(--button-primary-bg);
+    
+}
 .search-bar {
     margin-bottom: 2rem;
 }
@@ -377,8 +391,6 @@ body.app-layout {
 .stat-card .item-title {
     font-size: 2rem;
 }
-
-/* Profile Page */
 .profile-section {
     margin-bottom: 2rem;
 }
@@ -399,4 +411,8 @@ body.app-layout {
     border-radius: 50%;
     object-fit: cover;
     margin-left: auto;
+}
+.form-container h1{
+    margin-top: 1.5rem;
+    
 }

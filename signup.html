@@ -16,10 +16,16 @@
     </header>
 
     <main class="form-container">
+        <h1>Sign Up</h1>
+        <p class="form-subheading">Sign in to your Spendwise account</p>
         <form action="home.html" method="POST" class="main-form">
+            <label for="fullname">Full Name</label>
             <input type="text" name="fullname" placeholder="Enter your full name" required>
+            <label for="email">Email Address</label>
             <input type="email" name="email" placeholder="Enter your email" required>
+            <label for="password">Password</label>
             <input type="password" name="password" placeholder="Enter your password" required>
+            <label for="confirm_password">Confirm Password</label>
             <input type="password" name="confirm_password" placeholder="Confirm your password" required>
             <button type="submit" class="btn btn-primary">Sign Up</button>
         </form>
